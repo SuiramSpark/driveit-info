@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DriveIT — Eliminare l'account</title>
+<meta name="description" content="Come eliminare l'account DriveIT e i dati: in azienda la cancellazione la gestisce l'azienda; in uso personale i dati sono solo sul telefono.">
+<style>
+  :root { --bg: #f7f8fb; --card: #ffffff; --text: #1d2433; --muted: #5b6475; --accent: #2563eb; --line: #e3e7ee; --note: #eef4ff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f141c; --card: #171e29; --text: #e8ecf3; --muted: #9aa5b8; --accent: #6ea8ff; --line: #263041; --note: #16233a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 6px; }
+  h2 { font-size: 1.1rem; margin: 0 0 8px; }
+  .meta { color: var(--muted); font-size: 0.9rem; margin: 0 0 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; margin-top: 16px; }
+  .note { background: var(--note); border-radius: 12px; padding: 14px 16px; margin: 16px 0 0; }
+  ol, ul { padding-left: 1.2rem; margin: 8px 0; }
+  li { margin: 4px 0; }
+  .path { font-weight: 600; white-space: nowrap; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 0.85rem; margin-top: 32px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Eliminare l'account DriveIT e i dati</h1>
+  <p class="meta">DriveIT è pubblicata da SparkM, nome con cui Marius Iulian Apostu, persona fisica privata, pubblica l'app.</p>
+
+  <div class="note">
+    <strong>SparkM non conserva i tuoi dati.</strong> In azienda l'account e i dati stanno nello spazio cloud (Firebase)
+    della tua azienda; in uso personale stanno solo sul tuo telefono. Per questo la cancellazione si fa dall'app o con
+    la tua azienda, non presso SparkM.
+  </div>
+
+  <section class="card">
+    <h2>Se usi DriveIT con un'azienda</h2>
+    <p>Sei entrato con un codice, un QR o un link d'invito. La cancellazione la esegue e la gestisce l'azienda, che ne è
+      responsabile, con i propri tempi e le proprie regole. Puoi chiederla:</p>
+    <ol>
+      <li>dall'app: <span class="path">Profilo → Elimina il mio account</span>; oppure</li>
+      <li>al tuo <strong>Responsabile Flotta</strong>, o ai contatti indicati nell'informativa privacy dell'azienda
+        (nell'app: Impostazioni → Termini e privacy).</li>
+    </ol>
+    <p>Cosa succede, con l'impostazione predefinita dell'app:</p>
+    <ul>
+      <li>per <strong>30 giorni</strong> dalla richiesta non accedi più all'azienda, ma puoi scaricare i tuoi viaggi e
+        annullare la richiesta;</li>
+      <li>poi si cancellano il tuo <strong>profilo, la foto e l'email</strong>;</li>
+      <li>i viaggi restano all'azienda <strong>senza il tuo nome</strong> («Ex conducente», dati pseudonimizzati), oppure
+        vengono cancellati, secondo la scelta dell'azienda, che può conservarli per i propri obblighi di legge (per esempio
+        fiscali) per il tempo indicato nella sua informativa;</li>
+      <li>il <strong>registro delle accettazioni</strong> (chi ha accettato, quando, quale versione dei documenti) resta
+        all'azienda come prova, ai sensi degli artt. 7.1 e 17.3.e del GDPR;</li>
+      <li>l'accesso (email) lo toglie l'app quando rientri un'ultima volta; altrimenti lo toglie il Responsabile Flotta
+        dalla console Firebase.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Se usi DriveIT da solo (uso personale, senza account)</h2>
+    <p>I dati sono solo sul tuo telefono: non c'è nessun account da eliminare e SparkM non ha copie. Per cancellare tutto:</p>
+    <ul>
+      <li>nell'app: <span class="path">Profilo → Cancella tutto dal telefono</span>; oppure</li>
+      <li>disinstalla l'app.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Richieste di assistenza inviate a SparkM</h2>
+    <p>Sono gli unici dati che SparkM conserva: si cancellano da sole 12 mesi dopo la chiusura della richiesta. Per
+      cancellarle prima scrivi a <a href="mailto:driveit@sparkm.it">driveit@sparkm.it</a> (rispondiamo entro un mese).</p>
+  </section>
+
+  <footer>Questa pagina è solo informativa e non raccoglie dati. <a href="privacy.html">Informativa privacy</a>.</footer>
+</main>
+</body>
+</html>
